@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+   
+}
+body{
+    background-color: black;
+    color: white;
+}
+header h1{
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+header{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.content{
+    width: 70%;
+    /*border: 2px solid white ;*/
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.numbers{
+    width: 100%;
+    /* position: absolute; */
+    display: block;
+    bottom: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wrapper {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px;
+    margin: 16px;
+    margin: 0 auto;
+}
+
+.characterBox {
+    width: 50%;
+    height: 60%;
+    border: 1px solid rgb(27, 254, 11);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.wrapper img{
+    width: 30%;
+    height: 80%;
+}
+
+
+
+
+.photo{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.pagination {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 20px ;
+}
+.pagination li {
+    display: inline;
+}
+.pagination li a, .pagination li span {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: white;
+}
+.pagination li.active span {
+    font-weight: bold;
+    color: #fff;
+    background-color: rgb(27, 254, 11);
+}
